@@ -1,0 +1,34 @@
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+hr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#education-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.education-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+
+    .lista__item--red{
+        color: red;
+    }
+
+    .lista__item--blue{
+        color: blue;
+    }
+
+    .lista__item--green{
+        color: green;
+    }
+}

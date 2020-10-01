@@ -1,0 +1,42 @@
+$colorBlue: #5337ce;
+$colorGreen: #2bdb42;
+$colorRed: #d32e18;
+
+$colorMap: ('blue': $colorBlue, 'green': $colorGreen, 'red': $colorRed);
+
+@mixin columnSize($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.column {
+    border: 3px solid rgb(235, 231, 23);
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+hr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@each $colorKey,
+$hexValue in $colorMap {
+    .container__column--#{$colorKey} {
+        @extend .column;
+        @include columnSize(100vw / 3, 200px - 50px);
+        background-color: #{$hexValue};
+    }
+}

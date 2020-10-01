@@ -1,0 +1,40 @@
+#me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  #presentation {
+    font-size: 80px;
+  }
+  
+  #presentation #pres2 {
+    margin-top: -20px;
+  }
+  #presentation p {
+    margin: 0;
+  }
+  .subtitle {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  #about-me {
+    width: 300px;
+  }
+  #text {
+    margin-top: 10px;
+  }
+  
+  #carouselExampleControls {
+    position: absolute;
+    left: 0;
+  
+    max-height: 800px;
+  }
+  
+  .carousel-inner {
+    max-height: 800px;
+  }

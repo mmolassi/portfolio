@@ -1,0 +1,33 @@
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.experience__title {
+    margin-top: 16.080;
+    margin-bottom: 16.080;
+}
+
+hr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.experience__list__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.lista__experience--24px {
+    font-size: 24px;
+}
